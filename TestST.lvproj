@@ -289,6 +289,7 @@
 		<Item Name="Host.vi" Type="VI" URL="../Host.vi"/>
 		<Item Name="Host States.lvsc" Type="LVStatechart" URL="../Host States.lvsc"/>
 		<Item Name="Host Flow.ctl" Type="VI" URL="../Host Flow.ctl"/>
+		<Item Name="Convert PID Gains 2.vi" Type="VI" URL="../Convert PID Gains 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/nirio_resource_hc.ctl"/>
@@ -344,6 +345,9 @@
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="nirviRandomDataDMAMethods.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataDMAMethods.vi"/>
+			<Item Name="TestST.lvproj_FPGA_FPGA.vi.lvbit" Type="Document" URL="../FPGA Bitfiles/TestST.lvproj_FPGA_FPGA.vi.lvbit"/>
+			<Item Name="Convert PID Gains.vi" Type="VI" URL="../Convert PID Gains.vi"/>
+			<Item Name="Untitled 31 (SubVI)" Type="VI"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
