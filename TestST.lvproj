@@ -268,9 +268,9 @@
 				<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
 				<Item Name="niFpgaRandomDataHandleErrors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/niFpgaRandomDataHandleErrors.vi"/>
 				<Item Name="niFpgaFifoImplementationControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Types/niFpgaFifoImplementationControl.ctl"/>
-				<Item Name="niFpgaCommUtilsArbitrationOptionsControl.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 8.6/resource/RVI/commonUtilities/niFpgaCommUtilsArbitrationOptionsControl.ctl"/>
+				<Item Name="niFpgaCommUtilsArbitrationOptionsControl.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 8.6/resource/rvi/commonUtilities/niFpgaCommUtilsArbitrationOptionsControl.ctl"/>
 				<Item Name="niFpgaFifoTypeControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Types/niFpgaFifoTypeControl.ctl"/>
-				<Item Name="niFpgaCommUtilsDataTypeControl.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 8.6/resource/RVI/commonUtilities/niFpgaCommUtilsDataTypeControl.ctl"/>
+				<Item Name="niFpgaCommUtilsDataTypeControl.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 8.6/resource/rvi/commonUtilities/niFpgaCommUtilsDataTypeControl.ctl"/>
 				<Item Name="Fifo_State.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Types/Fifo_State.ctl"/>
 				<Item Name="nirviRandomDataCheckExitLoopConditions.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataCheckExitLoopConditions.vi"/>
 				<Item Name="nirviFPGAContextMergeError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviFPGAContextMergeError.vi"/>
@@ -280,6 +280,14 @@
 				<Item Name="nirviRandomDataAcquireLock.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataAcquireLock.vi"/>
 				<Item Name="nirviRandomDataFPGAFIFO.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataFPGAFIFO.vi"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+				<Item Name="nirvififoUniquifyingName.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoUniquifyingName.vi"/>
+				<Item Name="nirviEmuClasses.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuClasses.ctl"/>
+				<Item Name="nirviCommon.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 8.6/Targets/NI/FPGA/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+				<Item Name="niFpgaExecutionStage.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaExecutionStage.ctl"/>
+				<Item Name="EIO_ResourceConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/EIO_ResourceConfig.ctl"/>
+				<Item Name="niLvFpgaEmuInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/sdk/emulation/public/niLvFpgaEmuInfo.ctl"/>
+				<Item Name="nirviEmuTemplateMethod_errors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_errors.vi"/>
+				<Item Name="nirviEmuTemplateMethod_noerrors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuTemplateMethod_noerrors.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
@@ -302,10 +310,10 @@
 			</Item>
 			<Item Name="FPGA States.lvsc" Type="LVStatechart" URL="../FPGA States.lvsc"/>
 			<Item Name="nirviSimLinearInterp.vi" Type="VI" URL="/&lt;vilib&gt;/express/rvi/analysis/shared/nirviSimLinearInterp.vi"/>
-			<Item Name="EIOXNodeUserErrorTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/XNode/Errors/EIOXNodeUserErrorTypes.ctl"/>
-			<Item Name="EIOXNodeInternalErrorTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/XNode/Errors/EIOXNodeInternalErrorTypes.ctl"/>
-			<Item Name="EIOXNodeErrorStruct.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/XNode/Errors/EIOXNodeErrorStruct.ctl"/>
-			<Item Name="niLvFpgaEmulationMode.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 8.6/resource/RVI/emulation/niLvFpgaEmulationMode.ctl"/>
+			<Item Name="EIOXNodeUserErrorTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/XNode/errors/EIOXNodeUserErrorTypes.ctl"/>
+			<Item Name="EIOXNodeInternalErrorTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/XNode/errors/EIOXNodeInternalErrorTypes.ctl"/>
+			<Item Name="EIOXNodeErrorStruct.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/XNode/errors/EIOXNodeErrorStruct.ctl"/>
+			<Item Name="niLvFpgaEmulationMode.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 8.6/resource/rvi/emulation/niLvFpgaEmulationMode.ctl"/>
 			<Item Name="nirviIntfModes.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/nirviIntfModes.ctl"/>
 			<Item Name="nirviIntfCommonState.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/nirviIntfCommonState.ctl"/>
 			<Item Name="nirviopenstate.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/nirviOpenFPGA/nirviopenstate.ctl"/>
@@ -325,14 +333,12 @@
 			<Item Name="nirviRandomDataOpen.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataOpen.vi"/>
 			<Item Name="FPGA DDS TriangleGen IP.vi" Type="VI" URL="../FPGA DDS TriangleGen IP.vi"/>
 			<Item Name="FPGA Ref.ctl" Type="VI" URL="../FPGA Ref.ctl"/>
-			<Item Name="nirviCleanSpecificError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/nirviCleanSpecificError.vi"/>
-			<Item Name="nirviRandomDataClose.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataClose.vi"/>
 			<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
 			<Item Name="niFpgaRandomDataHandleErrors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/niFpgaRandomDataHandleErrors.vi"/>
 			<Item Name="niFpgaFifoImplementationControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Types/niFpgaFifoImplementationControl.ctl"/>
-			<Item Name="niFpgaCommUtilsArbitrationOptionsControl.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 8.6/resource/RVI/commonUtilities/niFpgaCommUtilsArbitrationOptionsControl.ctl"/>
+			<Item Name="niFpgaCommUtilsArbitrationOptionsControl.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 8.6/resource/rvi/commonUtilities/niFpgaCommUtilsArbitrationOptionsControl.ctl"/>
 			<Item Name="niFpgaFifoTypeControl.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Types/niFpgaFifoTypeControl.ctl"/>
-			<Item Name="niFpgaCommUtilsDataTypeControl.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 8.6/resource/RVI/commonUtilities/niFpgaCommUtilsDataTypeControl.ctl"/>
+			<Item Name="niFpgaCommUtilsDataTypeControl.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 8.6/resource/rvi/commonUtilities/niFpgaCommUtilsDataTypeControl.ctl"/>
 			<Item Name="Fifo_State.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Types/Fifo_State.ctl"/>
 			<Item Name="nirviRandomDataCheckExitLoopConditions.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataCheckExitLoopConditions.vi"/>
 			<Item Name="nirviFPGAContextMergeError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviFPGAContextMergeError.vi"/>
@@ -343,7 +349,10 @@
 			<Item Name="nirviRandomDataFPGAFIFO.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataFPGAFIFO.vi"/>
 			<Item Name="nirvififoUniquifyingName.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/FIFO/Fifo_Resource/nirvififoUniquifyingName.vi"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
-			<Item Name="TestST.lvproj_FPGA_FPGA.vi.lvbit" Type="Document" URL="../FPGA Bitfiles/TestST.lvproj_FPGA_FPGA.vi.lvbit"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="nirviRandomDataDMAMethods.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataDMAMethods.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
