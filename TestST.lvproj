@@ -331,7 +331,6 @@
 			<Item Name="nirviOpenVIInDeviceContext.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/nirviOpenVIInDeviceContext.vi"/>
 			<Item Name="nirviFifoGUIDConstant.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/project/nirviFifoGUIDConstant.vi"/>
 			<Item Name="nirviRandomDataOpen.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataOpen.vi"/>
-			<Item Name="FPGA DDS TriangleGen IP.vi" Type="VI" URL="../FPGA DDS TriangleGen IP.vi"/>
 			<Item Name="FPGA Ref.ctl" Type="VI" URL="../FPGA Ref.ctl"/>
 			<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
 			<Item Name="niFpgaRandomDataHandleErrors.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/niFpgaRandomDataHandleErrors.vi"/>
@@ -353,6 +352,7 @@
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="nirviRandomDataDMAMethods.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/RandomDataEmulation/nirviRandomDataDMAMethods.vi"/>
+			<Item Name="TestST.lvproj_FPGA_FPGA.vi.lvbit" Type="Document" URL="../FPGA Bitfiles/TestST.lvproj_FPGA_FPGA.vi.lvbit"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
