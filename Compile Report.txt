@@ -4,9 +4,9 @@ Compilation Summary
 -------------------
 
 Logic Utilization: 
- Number of Slice Registers:           3393  out of  51840     6%  
- Number of Slice LUTs:                5513  out of  51840    10%  
-    Number used as Logic:             5507  out of  51840    10%  
+ Number of Slice Registers:           3472  out of  51840     6%  
+ Number of Slice LUTs:                5608  out of  51840    10%  
+    Number used as Logic:             5602  out of  51840    10%  
     Number used as Memory:               6  out of  13440     0%  
        Number used as SRL:               6
 Slice 
@@ -19,26 +19,26 @@ Device Utilization Summary:
    Number of IODELAYs                       54 out of 560     9%
    Number of OLOGICs                        16 out of 560     2%
    Number of RAMB36_EXPs                     1 out of 96      1%
-   Number of Slice Registers              3344 out of 51840   6%
-      Number used as Flip Flops           3344
+   Number of Slice Registers              3423 out of 51840   6%
+      Number used as Flip Flops           3423
       Number used as Latches                 0
       Number used as LatchThrus              0
-   Number of Slice LUTS                   5589 out of 51840  10%
-   Number of Slice LUT-Flip Flop pairs    6625 out of 51840  12%
+   Number of Slice LUTS                   5686 out of 51840  10%
+   Number of Slice LUT-Flip Flop pairs    6775 out of 51840  13%
 
 Clock Rates: (Requested rates are adjusted for jitter and accuracy) 
   Base clock: 40 MHz Onboard Clock
       Requested Rate:      40.408938MHz 
-      Theoretical Maximum: 62.185187MHz
+      Theoretical Maximum: 53.008216MHz
   Base clock: MiteClk (Used by non-diagram components)
       Requested Rate:      33.037101MHz 
-      Theoretical Maximum: 99.413461MHz
+      Theoretical Maximum: 100.070049MHz
   Base clock: ReliableClk40 (Used by non-diagram components)
       Requested Rate:      40.408938MHz 
-      Theoretical Maximum: 155.738981MHz
+      Theoretical Maximum: 177.777778MHz
 
 
 
-Start Time: 7/10/2009 12:49:16 AM
-End Time: 7/10/2009 12:27:00 PM
+Start Time: 7/10/2009 1:40:30 PM
+End Time: 7/10/2009 2:29:17 PM
 
